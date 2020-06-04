@@ -1,0 +1,108 @@
+#igra{
+	background: #505050;
+	width: 800px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid;
+	overflow: hidden;
+	}
+
+.ball{
+	background: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;	
+	line-height: 100px;
+	display: block;
+	transition: all 1s;
+	position: absolute;
+	top: -100px; /*0-350*/
+	right: -100px /*0-550*/	
+	
+}
+
+.left{
+	top: 500px;
+	left: -100px;
+}
+
+.right{
+	top: 500px;
+	left: 700px;
+}
+
+#stars{
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	display: block;
+	font-size: 34px;
+	color: moccasin;
+	font-weight: bold;
+}
+
+#lifes{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	
+
+}
+
+#lifes span{
+	width: 20px;
+	height: 15px;
+	border-radius: 39%;
+	border: 1px solid gold;
+	background: pink;
+	display: block;
+	float: left;
+
+
+
+
+}
+
+#start-block{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#start-block button{
+	margin: 100px auto;
+	display: block;
+	padding: 40px 80px;
+	font-size: 35px;
+}
+
+#koniec-igra{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #e8e45b;
+	text-align: center;
+	font-size: 40px;
+	background-image: url(end2.jpg);
+	
+}
+
+#start-again{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 200px;
+	height:90px;
+	background: firebrick;
+	border-radius: 15%;
+	border-color: black;
+	border-radius: 3px solid;
+	font-size: 20px;
+	color: #e8e45b;
+}
